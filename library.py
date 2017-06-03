@@ -16,7 +16,6 @@ import os
 
 
 
-
 # Inicjalizacyjne połączenie się do bazy na użytkownika dbadmin // Mało 'compliance' - hasło dostępne
 # Można pomyśleć, w jaki sposób to obejść / można np. ograniczył użytkownikowi DBADMIN uprawnienia (jedna z metod)
 
