@@ -271,7 +271,7 @@ class App():
                 cur.execute("commit")
 
                 cur = self.polaczenie.cursor()
-                zapytanie1 = ("INSERT INTO DBADMIN.COPY(ID_COPY,ID_BOOKS)   VALUES(" + str(dane_ksiazki[8]) + "," + str(self.podaj_ISBN) + ")")
+                zapytanie1 = ("INSERT INTO DBADMIN.COPY(ID_COPY,ID_BOOKS)   VALUES(" + str(dane_ksiazki[9]) + "," + str(self.podaj_ISBN) + ")")
                 time.sleep(5)
                 cur.execute(zapytanie1)
                 cur.execute("commit")
